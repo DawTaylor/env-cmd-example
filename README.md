@@ -15,7 +15,7 @@ Exemplo
 }
 ```
 
-No exemplo acima, carregaremos as variáveis presentes no arquivo [env/.dev.env](..env/.dev.env) que estarão disponíveis para o `node src/index.js`.
+No exemplo acima, carregaremos as variáveis presentes no arquivo [env/.dev.env](./env/.dev.env) que estarão disponíveis para o `node src/index.js`.
 
 ## Exemplos
 Esse repo tem 2 exemplos simples utilizando Express. A aplicação acessa duas varíaveis disponíveis via `env-cmd`, `PORT` que será a porta que a aplicação vai escutar, `DOMAIN` que é o nome do domínio que será exibido no corpo da página.
