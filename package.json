@@ -1,0 +1,17 @@
+{
+  "name": "env-cmd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f env/.dev.env node src/index.js",
+    "test": "env-cmd -f env/.test.env node src/index.js"
+  }
+}
